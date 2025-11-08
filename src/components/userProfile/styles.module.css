@@ -1,0 +1,27 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: rgb(152, 160, 184);
+  padding: 100px 60px;
+  border-radius: 8px;
+  border: 10px solid rgb(81, 81, 146);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  gap: 25px;
+  width: 365px;
+  color: rgb(238, 228, 222);
+}
+.title {
+  color: white;
+  margin-bottom: 10px;
+}
+.btn {
+  align-self: flex-start;
+  width: auto;
+  padding: 3px;
+  cursor: pointer;
+}

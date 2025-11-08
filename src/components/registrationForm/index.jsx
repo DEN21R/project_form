@@ -24,10 +24,10 @@ function RegistrationForm() {
           />
           <span
             className={`${styles.errorMessage} ${
-              errors.email ? styles.show : ''
+              errors.login ? styles.show : ''
             }`}
           >
-            {errors.email?.message}
+            {errors.login?.message}
           </span>
         </div>
         <div className={styles.inputBlock}>
